@@ -1,0 +1,170 @@
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+    color: azure;
+}
+#home{
+    color: #94d82d;
+}
+#butn1{
+    border-radius: 30px;
+    font-size: large;
+    background-color:#5c940d;
+    color: antiquewhite;
+    padding: 9px;
+}
+.Landingpage{
+    background-color: #212529;
+    height: 80vh;
+  
+}
+
+.body{
+    background-color: #212529;
+    color: antiquewhite;
+}
+#HDK{
+    background-color:#94d82d ;
+    height:10vh ;
+ 
+}
+#heading1{
+    color: antiquewhite;
+   font-size: 50px;
+}
+#paragraph{
+    color: azure;
+    font-size: 20px;
+}
+.table{
+background-color: #212529;
+color: antiquewhite;
+ width: 100%;
+ height: 80vh;
+border-collapse: collapse; 
+padding:30px;
+
+}
+.users{
+    height: 50vh;
+    background-color: black;
+    color: beige;
+    padding:10px ;
+    
+}
+#crypto{
+    float: right; 
+    padding-right: 250px;
+    margin-right: 50px;
+    margin: 20px;
+ 
+   
+}
+#trade{
+ background-color: #94d82d;
+    font-size: large;
+    padding-right: 150px;
+    margin-right: 100px;
+}
+#invest{
+    color: #94d82d;
+}
+.invest{
+    margin: 30px;
+    /* padding: 200px; */
+
+}
+#secure{
+    float:right ;
+}
+#explore{
+    color: #94d82d;
+    border-color: #94d82d;
+    float: left;
+    font-size: large;
+}
+#bigbutton{
+    border-radius: 30px;
+    font-size: large;
+}
+#rewards{
+    background-color:black;
+    color: antiquewhite;
+    margin: 30px;
+    height: 20vh;
+
+}
+#buy{
+   border-radius: 30px;
+  padding: 4px 10px;
+
+}
+#bitcoin{
+    float: right;
+    width: 30%;
+    margin-top: 150px;
+    padding-right: 80px;
+  
+}
+.platform{
+  
+    padding: 100px;
+    float: right;
+   
+}
+#image{
+    float: right;
+}
+#appstore{
+    border-radius: 30px;
+    font-size: large;
+ background-color: black;
+ color: antiquewhite;
+ 
+}
+.butn2{
+
+
+}
+#exchange{
+    float: right;
+    border-radius:50%;
+}
+.clarity{
+    
+}
+#trade{
+    float: right;
+    margin: 20px;
+}
+.community{
+    padding: 30px;
+ 
+}
+.crypto{
+background-color: black;
+padding: 20px;
+
+
+}
+#start{
+    color: #5c940d;
+}
+
+
+
+#terms{
+    display: flex;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    gap: 10%;
+    background-color: black;
+    color: antiquewhite;
+    padding: 10px;
+    margin: 20px;
+    
+}
