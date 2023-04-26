@@ -63,10 +63,10 @@ padding:30px;
    
 }
 #trade{
- background-color: #94d82d;
+ /* background-color: #94d82d; */
     font-size: large;
-    padding-right: 150px;
-    margin-right: 100px;
+    padding-right: 140px;
+    margin-right: 90px;
 }
 #invest{
     color: #94d82d;
@@ -74,10 +74,13 @@ padding:30px;
 .invest{
     margin: 30px;
     /* padding: 200px; */
+    margin-right: 45px;
+
 
 }
 #secure{
     float:right ;
+    padding-right: 50%;
 }
 #explore{
     color: #94d82d;
@@ -92,8 +95,9 @@ padding:30px;
 #rewards{
     background-color:black;
     color: antiquewhite;
-    margin: 30px;
-    height: 20vh;
+    margin: 20px;
+    height: 30vh;
+    padding: 10px;
 
 }
 #buy{
@@ -110,9 +114,17 @@ padding:30px;
 }
 .platform{
   
-    padding: 100px;
+    padding-right: 10%;
     float: right;
+    margin-top: 15%;
    
+}
+#bit{
+    border-radius: 10%;
+    padding: 10%;
+   background-color: palevioletred;
+   color: aliceblue;
+ margin-top: 5%;
 }
 #image{
     float: right;
@@ -122,22 +134,24 @@ padding:30px;
     font-size: large;
  background-color: black;
  color: antiquewhite;
+ padding: 0px 30px 0px 30px;
  
 }
-.butn2{
 
-
-}
 #exchange{
     float: right;
     border-radius:50%;
 }
 .clarity{
+    margin-top: 20%;
+    margin: 20px;
+    padding-top: 10%;
     
 }
 #trade{
     float: right;
     margin: 20px;
+   
 }
 .community{
     padding: 30px;
@@ -146,17 +160,21 @@ padding:30px;
 .crypto{
 background-color: black;
 padding: 20px;
+margin: 40px;
 
 
 }
 #start{
     color: #5c940d;
 }
-
+#bigbtn{
+    border-radius: 20px;
+}
 
 
 #terms{
     display: flex;
+    justify-content: space-between;
 }
 .footer{
     display: flex;
@@ -166,5 +184,109 @@ padding: 20px;
     color: antiquewhite;
     padding: 10px;
     margin: 20px;
+   
+    
+}
+
+@media screen and (max-width:743px) {
+ul {
+        flex-direction: column;
+    }
+#trade{
+width: 80%;
+margin-left: 60%;
+
+}
+.footer{
+    
+    font-size: small;
+    width: 100%;
+    flex-direction: column;
+}
+#HDK{
+    margin-top: 50%;
+    height: 20vh;
+    width: 60%;
+}
+.table{
+    width: 60%;
+}
+#assets{
+    width: 70%;
+}
+#hr{
+    width: 80%;
+}
+#terms{
+margin-left: 10%;
+}
+#bigbutton{
+    width: 60%;
+    margin-left: 10%;
+    /* margin-bottom: 10%; */
+  
+}
+#crypto{
+    width: 60%;
+    margin-left: 100%;
+  
+    
+}
+#paragraph{
+    width: 100%;
+    font-size: 15px;
+
+}
+#heading1{
+    width: 80%;
+    font-size: xx-large;
+}
+#made{
+    width: 80%;
+}
+#appstore{
+    gap: 10%;
+}
+.users{
+    margin-bottom: 60%;
+}
+#butn1{
+    width: 175%;
+    margin-bottom: 30%;
+
+   
+}
+#bitcoin{
+    margin-bottom: 10%; 
+   
+}
+#secure{
+    width: 90%;
+}
+.platform{
+    margin-left: 80%;
+    padding-left: 30%;
+    
+  
+}
+#bigbtn{
+   width: 50%;
+
+}
+#rewards{
+    margin-bottom: 50%;
+}
+#bit{
+    padding: 10%;
+}
+#exchage{
+    width: 100%;
+}
+#invest{
+   text-align: center;
+   width: 40%;
+}
+
+
     
 }
